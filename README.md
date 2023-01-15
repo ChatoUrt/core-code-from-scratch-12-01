@@ -32,11 +32,8 @@ function digitize(n){
 Solution / /
 
 ``` javascript
-const truthy = [];
-const falsy = [];
-
-truthy.push(1, "1", !false, 1 && "1", obj = ["1"]);
-falsy.push(-0, NaN, 0n, "", undefined);
+const truthy = [true, 1, {}, "false", 5];
+const falsy = [null, undefined, 0, false, ""];
 ```
 
 ---
